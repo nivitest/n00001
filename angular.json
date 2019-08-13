@@ -122,8 +122,13 @@
               "devServerTarget": "n00001:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "n00001"
 }
