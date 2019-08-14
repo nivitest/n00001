@@ -7,7 +7,7 @@ import { ClogService } from '@nivite/nlib';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  fireconf: any; // provide the firebase config here or in index.html
+  fireconf: any; // provide the firebase config in assets/fireconfig.json or in index.html here directly
   guest: any;
   invite: any;
   constructor(private clog: ClogService) { }
